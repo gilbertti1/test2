@@ -1,0 +1,58 @@
+/* BY NICHOLAS(1903493) AND CASPER(1903991) */
+ion-content {
+    --ion-background-color: rgb(35, 35, 41);
+}
+/* We used a lot of darker colors for design purposes*/
+ion-title {
+    color:rgb(119, 0, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.new-background-color{
+    --background: rgb(35, 35, 41);
+}
+ion-row {
+    background-color: rgb(119, 0, 255);
+}
+   /* This time the h4 has white color, since the ion-row has purple background */
+h4 {
+    font-weight: bold;
+    color:white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   }
+ion-item {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/* Similarly to the h4, h5 also has purple color this time */
+h5 {
+    font-weight: bold;
+    margin-left: 0.4em;
+    color: rgb(119, 0, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* In contrast to the darker elements, we made the text completely white so it would be easier to read */
+
+p  {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    font-size: 15px;
+    margin-bottom: 3em;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+/* The image had to be displayed as blocked in order to have the profile text alongside it */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.2em;
+    width: 50px;
+    height: 50px;
+}
+
+/* BY NICHOLAS(1903493) AND CASPER(1903991) */

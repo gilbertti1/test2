@@ -1,0 +1,41 @@
+/* BY NICHOLAS(1903493) AND CASPER(1903991) */
+ion-content {
+    --ion-background-color: rgb(35, 35, 41);
+}
+
+/* We used a lot of darker colors for design purposes*/
+
+ion-title {
+    color:rgb(119, 0, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.new-background-color{
+    --background: rgb(35, 35, 41);
+}
+
+/* Searchbar is white since it fits into the overall look of the app */
+
+ion-searchbar {
+    color: white;
+}
+
+   /* We gave the h4 tag a thicker look by using the bold command, we used margin to 
+   space it out from the left, gave it the purple contrast color with color tag and gave the text 
+   shadows to make it easier to read it */
+
+h4 {
+    font-weight: bold;
+    margin-left: 1.2em;
+    color:rgb(119, 0, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   }
+
+   /* Items on the list are also white for the design purposes */
+
+ion-item {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* BY NICHOLAS(1903493) AND CASPER(1903991) */

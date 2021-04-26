@@ -1,0 +1,57 @@
+/* BY NICHOLAS(1903493) AND CASPER(1903991) */
+/* We updated the overall look of the app from the previous app since we wanted it to look more appealing */
+ion-content {
+    --ion-background-color: rgb(35, 35, 41);
+}
+/* We used a lot of darker colors for design purposes*/
+
+ion-title {
+    color:rgb(119, 0, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.new-background-color{
+    --background: rgb(35, 35, 41);
+}
+   /* We gave the h4 tag a thicker look by using the bold command, we used margin to 
+   space it out from the left, gave it the purple contrast color with color tag and gave the text 
+   shadows to make it easier to read it */
+
+h4 {
+    font-weight: bold;
+    margin-left: 0.4em;
+    color:rgb(119, 0, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   }
+
+/* The h5 is the color white to differ it from the other h tags.  We also gave it the same 
+treatment on the text shadows and margin to space it out */
+
+h5 {
+    margin-left: 1.6em;
+    font-size: 12px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* In contrast to the darker elements, we made the text completely white so it would be easier to read */
+
+p  {
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+    font-size: 15px;
+    margin-bottom: 3em;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* Images have also a thin black border since it looks a bit nicer */
+
+img {
+    height: 150px;
+    max-width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+}
+/* BY NICHOLAS(1903493) AND CASPER(1903991) */
